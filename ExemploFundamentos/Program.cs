@@ -23,5 +23,17 @@ calc.RaizQuadrada(9);
 
 //Estrutura de Repetições
 Console.WriteLine("------FOR-------");
-Repeticoes rept = new Repeticoes();
-rept.ExecutarRepeticoes();
+Repeticoes execFor = new Repeticoes();
+execFor.ExecutarFor();
+
+Console.WriteLine("------WHILE-------");
+Repeticoes execWhile = new Repeticoes();
+execWhile.ExecutarWhile();
+
+Console.WriteLine("------DO WHILE-------");
+Repeticoes executarDoWhile = new Repeticoes();
+executarDoWhile.ExecutarDoWhile();
+
+Console.WriteLine("------Menu-------");
+Repeticoes menu = new Repeticoes();
+menu.Menu();
